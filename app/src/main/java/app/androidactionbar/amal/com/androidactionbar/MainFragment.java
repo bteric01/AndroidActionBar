@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 /**
  * Created by Bradley on 10/26/2015.
  */
-public class MainFragment extends Fragment {
+public class MainFragment extends android.support.v4.app.Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.main_fragment, container, false);

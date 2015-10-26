@@ -10,7 +10,7 @@ import android.widget.TextView;
 /**
  * Created by Bradley on 10/26/2015.
  */
-public class TextFragment extends Fragment {
+public class TextFragment extends android.support.v4.app.Fragment {
     TextView text;
 
     @Override
